@@ -8,4 +8,4 @@
 
 **Open Science, Open Data, and Open Compute from Day One.** Access our datasets without the need for bulk downloads. Together with ready to use computational environment, reproduce our results, then build on them. 
 
-**Why a Nonprofit?** This data doesn't exist because the organizations that could create it are structurally prevented from doing so. Academic labs need to optimize for publications, not systematic datasets at scale. Commercial organisations do not have the right motivation. *OPENEMAGE* is built specifically to do what neither can: generate massive subcellular spatial biology datasets and release them as permanent public infrastructure for tommorow's AI Virtual Cells. 
+**Why a Nonprofit?** This data doesn't exist because the organizations that could create it are structurally prevented from doing so. Academic labs need to optimize for publications, not systematic datasets at scale. Commercial organisations do not have the right motivation. *Subspatial* is built specifically to do what neither can: generate massive subcellular spatial biology datasets and release them as permanent public infrastructure for tommorow's AI Virtual Cells. 

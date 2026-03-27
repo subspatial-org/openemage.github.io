@@ -8,4 +8,4 @@ Cellular function is spatially orchestrated. The same molecules, arranged differ
 
 Current virtual cell efforts can classify states from molecular signatures. They struggle to predict what cells will actually *do*, because they've not seen the subcellular spatial organization that governs function.
 
-*OPENEMAGE is building this foundational subcellular spatial biology data for Tomorrow's AI virtual cells.*
+*Subspatial is building this foundational subcellular spatial biology data for Tomorrow's AI virtual cells.*
