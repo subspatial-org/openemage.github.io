@@ -770,7 +770,7 @@ footer::before {
   }
   
   .nav-brand-text.nav-brand-full {
-    display: inline; /* Show full "openemage" on mobile */
+    display: inline; /* Show full "subspatial" on mobile */
     font-size: 1.1rem;
   }
   
