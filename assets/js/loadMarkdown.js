@@ -157,46 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /*
-   * Fallback content allows the site to display when run from the
-   * file:// scheme, where browser security policies prevent fetch() from
-   * loading local Markdown files. When a fetch error occurs, the
-   * corresponding entry from this object is used instead. On a live
-   * server (GitHub Pages), fetch will succeed and the fallback is ignored.
-   */
-    const fallback = {
-    'sections/vision-mission.md': `## Vision
-
-*Independent Scientists, united under one umbrella.*
-
-OPENEMAGE is a new paradigm in scientific research that empowers independent scientists to lead their own labs on their own terms. It serves as a nonprofit, post-institutional platform giving qualified researchers the credibility and support normally reserved for faculty positions. Independent scientists can immediately become a Principal Investigator under the OPENEMAGE umbrella, publishing and securing grants with full autonomy, without climbing the traditional academic ladder. The vision is a network of "sovereign labs" operating alongside the rigidity of traditional academia yet enjoying world-class resources and community. By combining shared infrastructure, open collaboration, and complete independence, OPENEMAGE aims to unleash innovation beyond the walls of universities.
-`,
-    'sections/approach.md': `## How
-
-*Combining institutional support with total independence.*
-
-OPENEMAGE reimagines the research lab from the ground up. Each **modular lab** is led by a researcher who is a PI from day one, leveraging shared infrastructure instead of needing to own costly equipment. A **nonprofit umbrella** provides critical support (grant administration, ethics oversight) and an official affiliation, so independent labs can secure funding while scientists retain full ownership of their work and IP. The organization is a **flat collective**, no internal ranks or titles, meaning every member lab is equal and decisions are made collaboratively among peers. And through **open science** principles, all findings, data, and methods are shared transparently, accelerating collaboration and trust. This structure gives researchers the freedom to innovate on their own terms with the support of a like-minded community.
-`,
-    'sections/rationale.md': `## Why Now?
-
-*Because the old system is leaving brilliant minds behind.*
-
-The traditional academic pipeline forces promising scientists to wait years for a chance to lead research, if they get a chance at all. Only about **10–15%** of new Ph.D. graduates secure a faculty position, leaving countless would-be innovators stranded outside academia. Rigid hierarchies mean even capable researchers must obtain permission and titles before they can pursue their ideas. Lacking an affiliation, independent scientists are locked out of grants and advanced facilities. Many end up isolated, and their expertise and ideas are lost to science. These barriers make a new approach urgent. OPENEMAGE arises to break this inertia now, opening the door for immediate, independent innovation.
-`,
-    'sections/call-to-action.md': `## Join Us
-
-*OPENEMAGE is more than an idea, it is a call to reshape how science is done.*
-
-OPENEMAGE extends an open invitation to all who share this vision. Whether you're a scientist seeking freedom or an ally of open science, you can help build a more decentralized, inclusive, and innovative research ecosystem:
-
-- **Independent Researchers:** Launch your own lab as part of the OPENEMAGE network. Enjoy the institutional legitimacy, resources, and peer support to pursue your ideas immediately, no permission needed.  
-- **Funding Partners:** Empower high-risk, high-reward research by supporting OPENEMAGE labs directly. Your grants or donations flow straight into experiments and talent, fueling discoveries that traditional funding might overlook.  
-- **Institutions & Industry:** Collaborate with OPENEMAGE labs as equal partners. Host joint projects, share facilities, or tap into a pool of independent experts, nurturing talent that will enrich the entire scientific community.  
-- **Mentors & Allies:** Lend your expertise as advisors, mentors, or champions of the modular lab movement. Your guidance and voice help uphold our standards and inspire the next generation of innovators.
-
-Together, we can prove that great science thrives anywhere, not only within the walls of traditional institutions, but in the open landscape that emerges when independence meets community. Join the modular lab movement and help redefine the future of scientific research.
-`
-  };
+ 
 
   // Enhanced navigation mode toggle
   const nav = document.querySelector('.pill-nav');
