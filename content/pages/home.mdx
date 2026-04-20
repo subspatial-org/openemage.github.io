@@ -1,0 +1,92 @@
+---
+title: "Subspatial · Building foundational subcellular spatial intelligence"
+description: "Subspatial is a nonprofit research organization generating large-scale 3D imaging datasets of human primary cells, training generative foundation models, and releasing both through an open research platform."
+ogTitle: "Subspatial · Subcellular spatial intelligence"
+ogDescription: "Open subcellular spatial datasets, generative foundation models, and an open research platform."
+---
+
+{/* 01 Intro / Hero */}
+<Section
+  anchor={{ num: "01", label: "Intro" }}
+  flushTop
+  minHeightClassName="md:min-h-[88vh] md:flex md:items-center"
+  contentClassName="w-full"
+>
+  <div>
+    <h1 className="display-hero max-w-[16ch]"><>Building foundational subcellular spatial intelligence.</></h1>
+
+    <p className="prose-body mt-10 max-w-[460px]"><>Subspatial is a nonprofit research organization generating large-scale 3D imaging datasets of human primary cells, training generative foundation models on this data, and releasing both through an open research platform.</></p>
+
+    <p className="mono-meta mt-16">Stichting Subspatial<span className="px-3">—</span>Utrecht, The Netherlands<span className="px-3">—</span>Formerly OPENEMAGE</p>
+  </div>
+</Section>
+
+{/* 02 Why */}
+<Section anchor={{ num: "02", label: "Why" }}>
+  <h2 className="display-section"><>Why subcellular spatial biology data</></h2>
+
+  <p className="prose-lead mt-8 max-w-[480px]"><>Biological AI today is trained on omics data; which molecules are present, at what levels. These methods don't resolve where molecules are located, or how they're organized in three dimensions.</></p>
+
+  <div className="mt-14">
+    <MetricCallout number="100×" caption="better resolution than any omics method" />
+  </div>
+
+  <p className="prose-body mt-12 max-w-[520px]"><>Cellular function depends on subcellular organization: how organelles are arranged, how membranes are shaped, how molecular complexes are positioned. This structural layer exists in small amounts from individual laboratories but not at the massive-scale foundation models require.</></p>
+
+  <p className="prose-body mt-2 max-w-[520px]" style={{ color: "var(--ink)", fontWeight: 500 }}><>We're generating it.</></p>
+</Section>
+
+{/* 03 What we build — the single signal moment */}
+<Section anchor={{ num: "03", label: "What we build" }}>
+  <h2 className="display-section"><>Data. Models. Platform. <span className="signal-bar" aria-hidden="true" /></></h2>
+
+  <div className="mt-10">
+    <NumberedItem
+      num="#1"
+      title="Data"
+      body={
+        <>
+          Systematic 3D imaging of human primary cells across four modalities:
+          cryo-electron tomography (<MonoInline>1–2 nm</MonoInline>), volume EM (
+          <MonoInline>5–20 nm</MonoInline>), X-ray tomography (
+          <MonoInline>25–50 nm</MonoInline>), expansion microscopy.
+        </>
+      }
+      link={{ to: "/data", label: "Data" }}
+    />
+    <NumberedItem
+      num="#2"
+      title="Models"
+      body="Generative foundation models of subcellular organization, trained on the multimodal imaging data and released as open weights. Designed to generate plausible cellular architectures and propagate changes across biological scales."
+      link={{ to: "/ai", label: "AI" }}
+    />
+    <NumberedItem
+      num="#3"
+      title="Platform"
+      body="An open research platform for real-time data release, version-controlled provenance, and community annotation. Datasets, tools, and discoveries shared as they're produced rather than after publication."
+      link={{ to: "/platform", label: "Platform" }}
+    />
+  </div>
+</Section>
+
+{/* 04 Fellowship */}
+<Section anchor={{ num: "04", label: "Fellowship" }}>
+  <h2 className="display-section"><>Fellowship</></h2>
+
+  <p className="prose-body mt-8 max-w-[560px]"><>The Subspatial × DECTRIS CLOUD Fellowship supports early-career researchers conducting original cryo-ET research on <MonoInline>EMPIAR-11830</MonoInline>, one of the largest openly available cryo-electron tomography datasets. The open call for a full cohort of ten launches April–May 2026.</></p>
+
+  <a href="/fellowship" className="link-arrow mt-8 inline-flex">
+    Fellowship <span aria-hidden="true">→</span>
+  </a>
+</Section>
+
+{/* 05 Subspatial */}
+<Section anchor={{ num: "05", label: "Subspatial" }}>
+  <h2 className="display-section"><>Subspatial</></h2>
+
+  <p className="prose-body mt-8 max-w-[580px]"><>Subspatial is founded as a Dutch nonprofit foundation (Stichting), incubated at UtrechtInc on the Utrecht Science Park. Co-founded by Sagar Khavnekar and Jeremy Leitz.</></p>
+
+  <a href="/about" className="link-arrow mt-8 inline-flex">
+    About <span aria-hidden="true">→</span>
+  </a>
+</Section>

@@ -1,105 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="keywords" content="Building Foundational Subcellular Spatial Biology Data for Tomorrow's Spatial Intelligence">
-  <title>SUBSPATIAL</title>
-  
-  <!-- Preload critical resources -->
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" as="style">
-  
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
-  
-  <!-- Site stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  
-  <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/openemage_logo_wob.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/openemage_logo_wob.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/openemage_logo_wob.png">
-  <link rel="shortcut icon" href="assets/openemage_logo_wob.png">
-</head>
-<body>
-  <!-- Scroll progress indicator -->
-  <div class="scroll-progress">
-    <div class="scroll-progress-bar"></div>
-  </div>
-
-  <header id="hero">
-    <!-- Theme toggle button -->
-    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
-      <span class="sun-icon">☀</span>
-      <span class="moon-icon">☾</span>
-    </button>
-    
-    <div class="wordmark-container animate-fadeInDown">
-      <img src="assets/openemage_logo_wob.png" alt="SUBSPATIAL logo" class="hero-logo">
-      <h1 class="wordmark">We are SUBSPATIAL</h1>
-    </div>
-    <p class="tagline animate-fadeInUp">Building Foundational Subcellular Spatial Biology Data <br>for Tomorrow's Spatial Intelligence</p>
-    
-    <!-- Scroll to vision button -->
-    <button class="scroll-to-vision" id="scroll-to-vision" aria-label="Scroll to our mission">
-      <span class="scroll-text">Our Mission</span>
-      <svg class="scroll-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <polyline points="6,9 12,15 18,9"></polyline>
-      </svg>
-    </button>
-  </header>
-
-  <main class="main-layout">
-    <div class="content-main" id="content-main">
-      <nav class="elegant-nav" id="elegant-nav" aria-label="Section navigation">
-        <div class="nav-container">
-          <div class="nav-brand">
-            <img src="assets/openemage_logo_wob.png" alt="Subspatial" class="nav-logo">
-            <span class="nav-brand-text nav-brand-full">Subspatial</span>
-            <span class="nav-brand-text nav-brand-compact">Subspatial</span>
-          </div>
-          <div class="nav-links">
-            <a href="#vision" class="nav-link" data-section="vision">
-              <span class="nav-text-full">Our Vision</span>
-              <span class="nav-text-short">Our Vision</span>
-              <span class="nav-text-letter">V</span>
-            </a>
-            <a href="#how" class="nav-link" data-section="approach">
-              <span class="nav-text-full">How</span>
-              <span class="nav-text-short">How</span>
-              <span class="nav-text-letter">H</span>
-            </a>
-            <a href="#whynow" class="nav-link" data-section="rationale">
-              <span class="nav-text-full">Why Now</span>
-              <span class="nav-text-short">Why Now</span>
-              <span class="nav-text-letter">W</span>
-            </a>
-            <a href="#joinus" class="nav-link" data-section="cta">
-              <span class="nav-text-full">JOIN US</span>
-              <span class="nav-text-short">JOIN US</span>
-              <span class="nav-text-letter">J</span>
-            </a>
-          </div>
-        </div>
-      </nav>
-
-      <section id="vision" class="content-block animate-fadeInUp" data-md="sections/vision-mission.md"></section>
-      <section id="how" class="content-block animate-fadeInUp" data-md="sections/approach.md"></section>
-      <section id="whynow" class="content-block animate-fadeInUp" data-md="sections/rationale.md"></section>
-      <section id="joinus" class="content-block animate-fadeInUp" data-md="sections/call-to-action.md"></section>
-    </div>
-  </main>
-
-  <footer>
-    <p>&copy; 2026 Subspatial. Built with ❤️ for Science.</p>
-  </footer>
-
-  <!-- Showdown.js converter -->
-  <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
-  <!-- Enhanced JavaScript -->
-  <script src="assets/js/loadMarkdown.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <title>Subspatial — Building foundational subcellular spatial intelligence</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

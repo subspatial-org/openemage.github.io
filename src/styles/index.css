@@ -1,0 +1,61 @@
+@import "tailwindcss" source(none);
+@source "../";
+@source "../../content";
+@source "../../index.html";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Order matters: tokens define the CSS variables; base declares @font-face +
+ * element resets using those tokens; components register the Subspatial
+ * design-system classes (type scale, buttons, wordmark, …). */
+@import "./tokens.css";
+@import "./base.css";
+@import "./components.css";
+
+/* Tailwind theme tokens referencing the brand variables. Keeping this at the
+ * end so `tokens.css` values are already available when the theme evaluates. */
+@theme inline {
+  --font-sans: "Fira Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-wordmark: "Unica One", "Fira Sans", ui-sans-serif, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+  --radius-xl: 10px;
+
+  --color-background: var(--paper);
+  --color-foreground: var(--ink);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
+  --color-ink-ghost: var(--ink-ghost);
+  --color-hairline: var(--hairline);
+  --color-mauve: var(--mauve);
+  --color-rose: var(--rose);
+  --color-teal: var(--teal-link);
+  --color-teal-hover: var(--teal-link-hover);
+  --color-signal: var(--mauve);
+
+  /* shadcn aliases (kept minimal — UI library compatibility) */
+  --color-card: var(--paper);
+  --color-card-foreground: var(--ink);
+  --color-popover: var(--paper);
+  --color-popover-foreground: var(--ink);
+  --color-primary: var(--ink);
+  --color-primary-foreground: var(--paper);
+  --color-secondary: var(--paper);
+  --color-secondary-foreground: var(--ink);
+  --color-muted: var(--paper);
+  --color-muted-foreground: var(--ink-muted);
+  --color-accent: var(--mauve);
+  --color-accent-foreground: var(--ink);
+  --color-destructive: #b94a57;
+  --color-destructive-foreground: #ffffff;
+  --color-border: var(--hairline);
+  --color-input: var(--hairline);
+  --color-ring: var(--ink);
+  --color-ring-offset-background: var(--paper);
+}

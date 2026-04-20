@@ -1,0 +1,46 @@
+/* Subspatial Design System — brand tokens.
+ * Change a value here and every surface propagates. */
+
+:root {
+  /* Brand core */
+  --ink-base: #13293d;
+  --paper-base: #d5dfe5;
+  --mauve: #c9b1bd;
+  --rose: #b49594;
+  --teal: #38887f;
+
+  /* Neutral scale, stepped paper → ink */
+  --paper-50: #eef2f5;
+  --paper-100: #e4ebef;
+  --paper-200: #d5dfe5;
+  --paper-300: #b9c5cd;
+  --paper-400: #8a9aa4;
+  --ink-600: #425a72;
+  --ink-700: #2a445c;
+  --ink-800: #1c3448;
+  --ink-900: #13293d;
+  --ink-950: #0a1824;
+
+  /* Semantic surfaces */
+  --paper: var(--paper-50);
+  --ink: var(--ink-900);
+  --ink-muted: rgba(19, 41, 61, 0.72);
+  --ink-faint: rgba(19, 41, 61, 0.55);
+  --ink-ghost: rgba(19, 41, 61, 0.42);
+  --hairline: rgba(19, 41, 61, 0.14);
+
+  /* Accent + link */
+  --signal: var(--mauve);
+  --teal-link: #38887f;
+  --teal-link-hover: #266660;
+
+  /* Layout */
+  --section-pad-y: 112px;
+  --section-pad-y-mobile: 80px;
+  --gap-anchor-content: 32px;
+  --anchor-width: 96px;
+  --content-max: 560px;
+  --prose-max: 520px;
+
+  --foreground: var(--ink);
+}

@@ -1,0 +1,63 @@
+---
+title: "Data · Subspatial"
+description: "Systematic subcellular imaging of human immune cells across four modalities: cryo-electron tomography, volume EM, X-ray tomography, and expansion microscopy."
+ogTitle: "Data · Subspatial"
+ogDescription: "Four modalities. Reproducible Real-time release format."
+---
+
+<Section
+  anchor={{ label: "Data" }}
+  flushTop
+  minHeightClassName="md:min-h-[60vh] md:flex md:items-center"
+  contentClassName="w-full"
+>
+  <h1 className="display-hero"><>Data</></h1>
+  <p className="prose-body mt-8 max-w-[480px]"><>Systematic subcellular imaging of human primary cells across four modalities at massive-scale.</></p>
+</Section>
+
+{/* Modalities — single signal moment */}
+<Section anchor={{ label: "Modalities" }}>
+  <h2 className="display-section"><>Modalities <span className="signal-bar" aria-hidden="true" /></></h2>
+
+  <div className="mt-10">
+    <NumberedItem
+      num="#1"
+      title="Cryo-electron tomography"
+      spec={<>1–2 nm</>}
+      body="Macromolecular complexes resolved in their native cellular context."
+    />
+    <NumberedItem
+      num="#2"
+      title="Volume electron microscopy"
+      spec={<>5–20 nm</>}
+      body="Whole-cell ultrastructure and organelle morphology."
+    />
+    <NumberedItem
+      num="#3"
+      title="X-ray tomography"
+      spec={<>25–50 nm</>}
+      body="Mesoscale 3D views covering the entire cell."
+    />
+    <NumberedItem
+      num="#4"
+      title="Expansion microscopy"
+      spec={
+        <>
+          25–50 nm labelled
+        </>
+      }
+      body="Targeted subcellular proteome and transcriptome spatial mapping."
+    />
+  </div>
+</Section>
+
+<Section anchor={{ label: "Real-time release" }}>
+  <h2 className="display-section"><>Real-time release</></h2>
+  <p className="prose-body mt-8 max-w-[520px]"><>Each dataset is released in real-time together with standardized metadata, the processing pipeline, compute environments with dependencies, and license and citation information. Data is hosted on AWS Open Data and accessible as a POSIX-like filesystem.</></p>
+</Section>
+
+
+<Section anchor={{ label: "Licensing" }}>
+  <h2 className="display-section"><>Licensing</></h2>
+  <p className="prose-body mt-8 max-w-[560px]"><>Data is released under ODC-ODbL (share-alike for databases) and CC BY-SA (for documentation). Licensing options will be available for organizations that cannot comply with share-alike terms.</></p>
+</Section>
